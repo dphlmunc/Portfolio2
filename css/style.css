@@ -37,17 +37,17 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', serif;
     font-size: 80px;
     line-height: 70px;
 }
 
 h4 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     position: relative;
-    color: #425BB5;
+    color: #ffea14;
     margin-left: 40px;
     font-weight: 700;
 }
@@ -59,7 +59,7 @@ h4:before {
     content: "";
     display: block;
     height: 2px;
-    background: #425BB5;
+    background: #ffea14;
     top: 9px;
 }
 
@@ -128,7 +128,7 @@ body {
     width: 100%;
     -webkit-animation: rotation 1s linear infinite;
     animation: rotation 1s linear infinite;
-    border: 2px solid #425BB5;
+    border: 2px solid #ffea14;
     border-top: 2px solid transparent;
     border-radius: 100%
 }
@@ -269,12 +269,12 @@ a:focus {
 }
 
 a:hover {
-    color: #425BB5;
+    color: #ffea14;
     text-decoration: none;
 }
 
 a.active {
-    color: #425BB5;
+    color: #ffea14;
 }
 
 
@@ -282,9 +282,9 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background: url(../img/profile01.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 120vh;
 }
 
 .table-cell {
@@ -294,7 +294,7 @@ a.active {
 
 .disply-table {
     display: table;
-    height: 100vh;
+    height: 50vh;
 }
 
 
@@ -311,12 +311,12 @@ a.active {
 
 .about-border {
     position: absolute;
-    border: 10px solid #425BB5;
+    border: 10px solid #ffea14;
     width: 400px;
-    height: 400px;
+    height: 550px;
     top: 40px;
-    left: 50px;
-    z-index: 1
+    left: 100px;
+    z-index: 0;
 }
 
 
@@ -325,7 +325,7 @@ a.active {
 
 #experience {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #cccccc
 }
 
 .experience-row {
@@ -337,7 +337,7 @@ a.active {
     font-family: 'Lato', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #425BB5;
+    color: #ffea14;
     font-size: 16px;
     font-weight: bold
 }
@@ -377,11 +377,11 @@ a.active {
 .timeline-event:hover .timeline-event-icon {
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background-color: #425BB5;
+    background-color: #ffea14;
 }
 
 .timeline-event:hover .timeline-event-thumbnail {
-    box-shadow: inset 40em 0 0 0 #425BB5;
+    box-shadow: inset 40em 0 0 0 #ffea14;
 }
 
 .timeline-event-copy {
@@ -416,8 +416,8 @@ a.active {
     transition: transform 0.2s ease-in, -webkit-transform 0.2s ease-in;
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #425BB5;
-    outline: 10px solid #f3f3f3;
+    background-color: #ffea14;
+    outline: 10px solid #cccccc;
     display: block;
     margin: 0.5em 0.5em 0.5em -0.5em;
     position: absolute;
@@ -438,7 +438,7 @@ a.active {
     font-size: 12px;
     font-weight: bold;
     background-color: black;
-    box-shadow: inset 0 0 0 0em #425BB5;
+    box-shadow: inset 0 0 0 0em #ffea14;
     display: inline-block;
     margin-bottom: 1.2em;
     padding: 0.25em 1em 0.2em 1em;
@@ -478,7 +478,7 @@ a.active {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-    background-color: #425BB5;
+    background-color: #ffea14;
     padding: 0px 20px;
     color: white;
     text-decoration: none;
@@ -501,7 +501,7 @@ a.active {
     left: 0px;
     height: 100%;
     width: 100%;
-    background-color: #425BB5;
+    background-color: #ffea14;
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
@@ -536,7 +536,7 @@ a.active {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #425BB5;
+    background-color: #ffea14;
     padding: 5px 20px;
     color: #fff;
     margin-top: 10px;
@@ -633,7 +633,7 @@ a.active {
 
 #contact {
     padding: 100px 0;
-    background: #f3f3f3
+    background: #cccccc
 }
 
 #contact-form input,
@@ -706,11 +706,11 @@ fieldset {
 }
 
 #success p {
-    color: #425BB5;
+    color: #ffea14;
     font-size: 15px;
     text-align: center;
     padding: 10px;
-    border: 2px solid #425BB5;
+    border: 2px solid #ffea14;
     margin-top: 10px;
 }
 
@@ -724,7 +724,7 @@ fieldset {
 }
 
 #submit {
-    background-color: #425BB5;
+    background-color: #ffea14;
     color: #fff;
     padding: 10px 40px;
     border-radius: 0;
@@ -753,9 +753,12 @@ fieldset {
 }
 
 .social li a:hover {
-    color: #425BB5;
+    color: #ffea14;
 }
 
+#credits {
+    font-size: 8px;
+}
 
 /* Responsive media queries
 ==================================================*/
