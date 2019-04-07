@@ -804,10 +804,14 @@ fieldset {
 /* CENTERING ONLY */
 
 .wrapper {
-    position: inherit;
+    position: static;
     top: 50%;
     left: 50%;
-    transform: translateX(60%) translateY(-150%);
+}
+
+.imgwrapper {
+    position: static;
+    transform: translateX(80%);
 }
 
 /* Responsive media queries
